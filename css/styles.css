@@ -1,0 +1,115 @@
+body{
+    font-family: 'Roboto','Verdana', 'Tahoma', sans-serif;
+    color: #434455;
+    background-color: white;
+    font-size: 16px;
+    line-height: 1.5;
+    }
+    header{
+        text-decoration: none;
+        list-style: none;
+    }
+    ul{
+        text-decoration: none;
+        list-style: none;
+    }
+    a{
+        color: inherit;
+        text-decoration: none;
+    }
+    .logo{
+        font-family: Raleway;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    }
+    .accent{
+        font-family: Raleway;
+        color: #404BBF;
+
+    }
+    .site-nav .link{
+        color: #2E2F42;
+        font-weight: 700;
+        text-decoration: none;
+    }
+    .site-nav .link:hover, .site-nav .link:active{
+        color: #4D5AE5;
+    }
+    .adress .contact{
+        color: inherit;
+        font-size: 12px;
+        font-style: normal;
+        text-decoration: none;
+        letter-spacing: 0.04em;
+    }
+        .adress .contact:hover{
+        color: #4D5AE5;
+    }
+    .post1{
+            color: white;
+            background-color: #2E2F42;
+            list-style: none;
+            text-align: center;
+        }
+    .title{
+        font-size:  56px;
+        font-weight: 700;
+        letter-spacing: 0.02em;
+        line-height: 1.07;
+    }
+    .button{
+        color: white;
+        background-color: #4D5AE5;
+        letter-spacing: 0.04em;
+        line-height: 1.5;
+        cursor: pointer;
+    }
+    .post1 .button:hover, .post1 .button:active{
+        background-color: #404BBF;
+    }
+    .post2 {
+        list-style: none;
+        background-color: #F4F4FD;
+        text-align: center;
+        }
+    .h2{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 40px;
+        letter-spacing: 0.02em;
+        text-align: center;
+    }
+    .h3{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.002em;
+    text-align: left;
+    }
+    .text1{
+    list-style: none;
+    text-align: left;
+}
+.header2{
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+}
+.text2{
+    font-weight: 700;
+    text-align: center;
+ }
+ .post3{
+    list-style: none;
+}
+.text3{
+    text-align: left;
+}
+.footer{
+    color: white;
+    background-color: #2E2F42;
+    text-align: left;
+}
