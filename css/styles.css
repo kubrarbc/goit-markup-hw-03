@@ -10,6 +10,7 @@ body{
         padding: 0;
     }
         .container {
+            display: block;
             box-sizing: border-box;
             width: 1158px;
         }
