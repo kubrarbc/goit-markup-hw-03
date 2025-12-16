@@ -13,7 +13,7 @@ body{
         width: 1158px;
     }
     header{
-
+display: inline;
         text-decoration: none;
         list-style: none;
     }
@@ -79,6 +79,8 @@ body{
         background-color: #404BBF;
     }
     .post2 {
+        display:flex;
+        flex-direction: row;
         list-style: none;
         background-color: #F4F4FD;
         text-align: center;
