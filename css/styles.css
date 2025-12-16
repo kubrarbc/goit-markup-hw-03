@@ -80,8 +80,10 @@ display: inline;
         background-color: #404BBF;
     }
     .post2 {
-        display:flex;
+        display: flex;
         flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
         list-style: none;
         background-color: #F4F4FD;
         text-align: center;
