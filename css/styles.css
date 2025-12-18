@@ -5,7 +5,7 @@ body{
     font-size: 16px;
     line-height: 1.5;
     }
-    h1, h2, h3, h4, p, ul{
+    h1, h2, h3, h4, p, ul, a{
         margin: 0;
         padding: 0;
     }
@@ -17,17 +17,32 @@ body{
             width: 1158px;
         }
     header{
-display: inline;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
         text-decoration: none;
         list-style: none;
+        width: 1158px;
+        gap: 16px;
     }
     ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-items: flex;
+        flex-direction: row;
+        gap: 20px;
+        flex-wrap:wrap;
         text-decoration: none;
         list-style: none;
     }
     a{
         color: inherit;
         text-decoration: none;
+    }
+    img{
+        display: block;
+        max-width: 100%;
     }
     .logo{
         font-family: Raleway;
@@ -40,9 +55,16 @@ display: inline;
     .accent{
         font-family: Raleway;
         color: #404BBF;
-
+    }
+    .site-nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 8px;
     }
     .site-nav .link{
+        display: flex;
+        flex-direction: row;
         color: #2E2F42;
         font-weight: 700;
         text-decoration: none;
@@ -60,13 +82,24 @@ display: inline;
         .adress .contact:hover{
         color: #4D5AE5;
     }
-    .post1{
-            color: white;
-            background-color: #2E2F42;
-            list-style: none;
-            text-align: center;
+    .post{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 600px;
+        gap: 16px;
+         color: white;
+         background-color: #2E2F42;
+         list-style: none;
+         text-align: center;
         }
     .title{
+        display: inline;
+        width: 496px;
+        height: 120px;
+        margin-right: auto;
+        margin-left: auto;
         font-size:  56px;
         font-weight: 700;
         letter-spacing: 0.02em;
@@ -79,13 +112,25 @@ display: inline;
         line-height: 1.5;
         cursor: pointer;
     }
-    .post1 .button:hover, .post1 .button:active{
+    .post .button:hover, .post1 .button:active{
         background-color: #404BBF;
+    }
+    .post1{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        height: 344px;
+
+    }
+    .section1{
+        width: 264px;
+        height: 104px;
+        margin: auto;
     }
     .post2 {
         display: flex;
-        flex-direction: row;
-        justify-content: center;
+        flex-direction: column;
         flex-wrap: wrap;
         list-style: none;
         background-color: #F4F4FD;
@@ -98,12 +143,12 @@ display: inline;
         letter-spacing: 0.02em;
         text-align: center;
     }
-    .h3{
+    .section2 .h3{
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 0.002em;
-    text-align: left;
+    text-align: center;
     }
     .text1{
     list-style: none;
@@ -121,7 +166,14 @@ display: inline;
  .post3{
     list-style: none;
 }
-.text3{
+ .section3 .h3 {
+     font-weight: 500;
+     font-size: 20px;
+     line-height: 24px;
+     letter-spacing: 0.002em;
+     text-align: left;
+ }
+.section3 .text3{
     text-align: left;
 }
 .footer{
