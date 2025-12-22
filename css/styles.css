@@ -24,6 +24,7 @@ body{
         list-style: none;
         padding-top: 24px;
         padding-bottom: 24px;
+        border-bottom: 1px #434455;
         width: 1158px;
         height: 72px;
     }
@@ -65,7 +66,7 @@ body{
         color: #4D5AE5;
     }
     .adress .contact{
-        gap: 40px;
+        padding-left: 20px;
         color: inherit;
         font-size: 12px;
         font-style: normal;
@@ -77,6 +78,7 @@ body{
     }
     .post{
         display: flex;
+        padding: 188px 0;
         justify-content: center;
         align-items: center;
         flex-direction: column;
@@ -88,10 +90,9 @@ body{
     .title{
         display: inline;
         padding-top: 120px;
-        padding-bottom: 60px;
-        margin-right: auto;
-        margin-left: auto;
-        margin-bottom: 20px;
+        margin-right: 250px;
+        margin-left: 250px;
+        margin-bottom: 48px;
         font-size:  56px;
         font-weight: 700;
         letter-spacing: 0.02em;
@@ -99,7 +100,7 @@ body{
     }
     .button{
         display: inline;
-        margin-bottom: 120px;
+        padding: 16px 32px;
         border-radius: 4px;
         border-color: #4D5AE5;
         color: white;
