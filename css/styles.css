@@ -137,7 +137,6 @@ body{
             flex-direction: row;
             flex-wrap: nowrap;
             padding-top: 72px;
-            padding-bottom: 32px;
             gap: 32px;
             text-decoration: none;
             list-style: none;
@@ -179,17 +178,14 @@ body{
 }
 .post3 .section3{
     display: flex;
+    padding: 72px 0;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 8px;
     list-style: none;
 }
-.post3 .h2{
-    paddin-top: 20px;
-    padding-bottom: 40px;
-}
  .section3 .h3 {
-    padding: 12px 0;
+    padding: 8px 0;
     font-weight: 500;
      font-size: 20px;
      line-height: 24px;
@@ -197,12 +193,12 @@ body{
      text-align: left;
  }
 .section3 .text3{
-    padding-bottom: 40px;
     text-align: left;
 }
 .footer{
     display: flex;
-padding-top: 40px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     padding-right: 720px;
     padding-left: 156px;
     justify-content: flex-start;
@@ -212,4 +208,7 @@ padding-top: 40px;
     color: white;
     background-color: #2E2F42;
     text-align: left;
+}
+.footer .logo{
+    padding-bottom: 16px;
 }
