@@ -14,7 +14,7 @@ body{
             box-sizing: border-box;
             margin-right: auto;
             margin-left: auto;
-            width: 1158px;
+            width: 1440px;
         }
     header{
         display: flex;
@@ -25,8 +25,6 @@ body{
         padding-top: 24px;
         padding-bottom: 24px;
         border-bottom: 1px #434455;
-        width: 1158px;
-        height: 72px;
     }
     a{
         color: inherit;
@@ -68,6 +66,7 @@ body{
     }
     .adress .contact{
         padding-left: 20px;
+        justify-content: flex-end;
         color: inherit;
         font-size: 12px;
         font-style: normal;
